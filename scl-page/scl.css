@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 25px;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
+nav h3{
+    margin-top: 2.5%;
+    font-size: 20px;
+}
+nav div{
+    display: flex;
+    gap: 2em;
+}
+nav img{
+    width: 130px;
+    height: 80px;
+}
+nav p{
+    font-size: 32px;
+    margin-top: 25px;
+}
+nav i{
+    padding-top: 30px;
+    font-size: 32px;
+}
+
+#video video{
+ width: 100%;
+ height: 20%;
+
+}
+.left{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top:17% ;
+  font-size: 50px;
+  left: 5.5%;
+}
+.right{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-40% ;
+    font-size: 50px;
+    right: 0;
+ 
+}
+
+.pp{
+    padding: 30px ;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+#highlights{
+    text-align: center;
+    padding-top: 50px;
+}
+#highlights h1{
+    font-size: 30px;
+}
+.groups{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+.group{
+    padding: 20px;
+    font-size: 25px;
+}
+.group i{
+    color: rgb(189, 194, 200);
+    font-size: 35px;
+}
+
+#projects{
+    padding-top:30px ;
+    text-align: center;
+}
+#projects h1, #projects h2{
+    padding: 20px;
+}
+#projects h2 marquee{
+    width: 10%;
+    position: absolute;
+    color: rgb(74, 144, 230);
+}
+
+#ca{
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+.pass{
+    width: 46.2%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    margin-top: -10%;
+    color: white;
+    background-color: rgba(77, 70, 70, 0.695);
+    justify-content: space-evenly;
+    backdrop-filter: blur(4px) ;
+}
+.card img{
+    width: 700px;
+    height: 400px;
+}
+.pass button{
+    background-color: aliceblue;
+    color: rgb(74, 144, 230);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.pass .p1{
+    display: flex;
+    padding-top: 70px;
+}
+.p2{
+    margin-top: 20px;
+}
+#legacy{
+    background-image: url('leagcy.jpg');
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    margin-top: 45px;
+}
+#legacy h1{
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+#legacy p{
+    padding:20px ;
+    font-size:20px ;
+    margin-left: 30px;
+
+}
+#legacy button{
+    background-color: aliceblue;
+    color: rgb(74, 144, 230);
+    width: 130px;
+    height: 40px; 
+    border-radius: 10px;
+    margin: 20px ;
+    margin-left: 40px;
+}
+#about{
+    padding: 60px;
+    background-color: rgba(206, 206, 241, 0.274);
+}
+.dev{
+    display: flex;
+    justify-content: space-around;
+}
+#about h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.developers{
+    width: 100%;
+    padding: 20px;
+}
+.developers h2{
+    font-size: 25px;
+    padding: 22px;
+}
+.developers p{
+    font-size: 16px;
+    padding: 20px;
+}
+.developers button{
+    background-color: rgba(89, 170, 241, 0.725);
+    color: rgb(18, 19, 19);
+    width: 130px;
+    height: 40px; 
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.sai{
+    background-color:whitesmoke;
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 5px 2px gray;
+    border-radius: 20px;
+    height: 42%;
+}
+.sai1{
+    background-color:whitesmoke;
+    width: 30%;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 5px 2px gray;
+    border-radius: 20px;
+    height: 40%;
+    margin-top: 10%;
+}
+.sai1 i,.sai1 h4{
+    font-size: 26px;
+    padding: 10px;
+    color: rgb(74, 144, 230);
+}
+.sai1 p{
+    font-size: 17px;
+    padding: 10px;
+    left: 0;
+    display: flex;
+}
+.i1{
+    width: 30%;
+    margin-right: 30px;
+}
+.sai i,.sai h4{
+    font-size: 26px;
+    padding: 10px;
+    color: rgb(74, 144, 230);
+}
+.sai p{
+    font-size: 17px;
+    padding: 10px;
+    left: 0;
+    display: flex;
+}
+#testimonials{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+#testimonials h1{
+    font-size: 25px;
+}
+.content{
+    padding: 20px;
+    border: 1px solid black;
+    width: 35%;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.content img{
+    padding: 20px;
+}
+.so{
+    display: flex;
+    justify-content: space-evenly;
+}
+.so img{
+    margin-left:7em ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.so i{
+    font-size: 34px;
+    margin-top: 35px;
+    color: rgba(81, 112, 246, 0.882);
+}
+.content h3{
+  font-size: 22px;
+  padding: 20px;
+}
+.content p{
+    font-size: 17px;
+    padding: 10px;
+}
+
+#talk{
+    background-image: url('slo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:rgb(208, 216, 206);
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#talk h2{
+    padding: 20px;
+    font-size: 24px;
+}
+.p{
+    padding: 20px ;
+    font-size: 18px;
+}
+#talk p{
+    display: flex;
+    left: 0;
+    font-size: 18px;
+    padding: 20px ;
+}
+#talk p i{
+    color: rgba(40, 40, 237, 0.849);
+}
+form{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    backdrop-filter: blur(4px) ;
+}
+form label{
+  font-size: 20px;
+}
+form input{
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+}
+form input[type="message"]{
+    height: 100px;
+}
+form button{
+    background-color: rgb(46, 46, 240);
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.total{
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    padding: 20px;
+}
+footer img{
+  padding: 30px 20px;
+}
+.icons i{
+    font-size: 25px;
+    padding:5px;
+}
+.total .re{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.a1{
+    font-size: 20px;
+    padding: 10px;
+}
+.a1 p,.a1 h3{
+  padding: 10px;
+}
+
+.a1 .add{
+  font-size: 25px;
+  font-weight: 600;
+}
+.a1 .toll{
+    font-size: 25px;
+    font-weight: 600;    
+}
+.re h5{
+    padding: 40px;
+    font-size: 18px;
+}
+.h5{
+    margin-right: 15%;
+}
+
+@media only screen and (max-width:800px) {
+   body{
+    font-size: 14px;
+   }
+    nav h3{
+        display: none;
+    }
+    nav{
+        font-size: 18px;
+        width:100%;
+    }
+    #video video{
+        width: 100%;
+        height: 20%;
+       }
+       .groups{
+        flex-direction: column;
+       }
+       #ca{
+        flex-direction: column;
+       }
+       #projects h2{
+        margin-left: -10%;
+       }
+       .pass{
+      width: 100%;
+      height: 18%;
+      margin-top: -33%;
+       }
+       .card img{
+        width: 100%;
+        height: 400px;
+       }
+       #legacy{
+        height: 100%;
+       }
+       #legacy h1, #legacy p{
+        font-size: 18px;
+        margin-left: -10%;
+       }
+       .dev{
+        margin-left: -10%;
+        font-size: 18px;
+        flex-direction: column;
+    }
+       .i1{
+        width: 90%;
+       }
+       .sai1{
+        width: 90%;
+
+    }
+       .con{
+        flex-direction: column;
+       }
+       .content{
+        width: 100%;
+       }
+       #talk{
+        flex-direction: column;
+       }
+       form{
+        width: 100%;
+       }
+       footer{
+        flex-direction: column;
+        height: 100%;
+       }
+       .re{   
+             flex-direction: column;
+             margin-left: -30%;
+             bottom: 0;
+       }
+}
